@@ -1,5 +1,7 @@
 # Canly
 
+**Live Demo:** [Canly](https://canly.vercel.app)
+
 Canly is a React-based web application that streamlines task management for individuals and teams. It offers an intuitive interface for creating, editing, and deleting tasks, with real-time updates and data persistence to ensure your workflow is always up to date. The app is built with modern web technologies, providing a responsive experience across devices.
 
 ## Features

@@ -155,7 +155,8 @@ function App() {
         >
           {darkMode ? "Light" : "Dark"} Mode
         </button>
-        <h1 className="text-2xl font-bold text-center text-black dark:text-white">Kanban To-Do</h1>
+        <h1 className="text-2xl font-bold text-center text-black dark:text-white">Canly</h1>
+        <h2 className="italic text-lg font-medium text-center mb-4">Kanban Style To-Do</h2>
         {recentBackup && (
           <div className="absolute right-0 top-10 text-sm text-black dark:text-white">
             <button
