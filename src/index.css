@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  
+  .fade-out {
+    animation: hideTask 0.4s ease forwards;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  @keyframes hideTask {
+    0% {
+      opacity: 1;
+      max-height: 100px;
+      line-height: 1.5rem;
+      padding: 0.75rem;
+      margin-bottom: 0.75rem;
+    }
+    75% {
+      opacity: 0;
+      max-height: 100px;
+      line-height: 1.5rem;
+      padding: 0.75rem;
+      margin-bottom: 0.75rem;
+    }
+    100% {
+      opacity: 0;
+      max-height: 0px;
+      line-height: 0;
+      padding: 0;
+      margin-bottom: 0;
+    }
+  }
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.85; }
+}
