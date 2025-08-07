@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import './App.css'
-import Board from './components/board'
+import Board from './components/Board'
 import InputBar from './components/InputBar'
 import { DragDropContext } from "@hello-pangea/dnd";
 
